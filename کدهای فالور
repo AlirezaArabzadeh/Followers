@@ -1,0 +1,8 @@
+apt update && apt upgrade
+pkg install git
+apt install git curl openssh openssl openssl-tool -y
+git clone https://github.com/thelinuxchoice/inshackle
+ls
+cd inshackle
+ls
+bash inshackle.sh
